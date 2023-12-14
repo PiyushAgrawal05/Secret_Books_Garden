@@ -1,0 +1,190 @@
+body{
+    background-color: whitesmoke;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -15px;
+}
+header h1{
+    color: green;
+    padding-right: 420px;
+    transition: all 0.2s ease;
+}
+header h1:hover{
+    transform: scale(1.02);
+}
+header a{
+    padding: 30px;
+}
+header img{
+    height: 70px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+.navbar{
+    width: 100%;
+    position: fixed;
+    background-color: wheat;
+    display: flex;
+}
+.navbar a{
+    padding: 5px;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: red;
+}
+.intro{
+    margin-top: 2px;
+    background-color: #cccccc;
+    display: flex;
+}
+.intro img{
+    margin: 10px;
+    height: 300px;
+}
+.intro h1{
+    font-size: 60px;    
+    font-style: oblique;
+    color: rgb(8, 49, 75);
+    padding-left: 50px;
+}
+.text P{
+    margin-top: -42px;
+    text-align: end;
+    font-size: 20px;
+    font-style: oblique;
+    color: rgb(8, 49, 75);
+}
+.redirect{
+    margin-top: 220px;
+    margin-left: -320px;
+    font-size: 30px;
+}
+.books{
+    background-image: url(cover\ photo.webp);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-size: cover;
+    background-color: #e2e7e6;
+}
+.book{
+    background-color: white;
+    margin-top: 10px;
+    width: 250px;
+    height: 380px;
+    text-align: center;
+    align-items: center;
+}
+.books img{
+    padding: 10px;
+    height: 210px;
+    transition: all 0.2s ease;
+}
+.book img:hover{
+    transform: scale(1.06);
+}
+.books p{
+    margin-top: 5px;
+    padding-left: 10px;
+}
+.Name{
+    font-weight: 700;
+}
+.text{
+    display: inline;
+}
+button{
+    background-color: yellow;
+    border: 1px solid black;
+    transition: all 0.2s ease;
+}
+button:active{
+    transform: scale(0.96);
+    background-color:rgb(47, 215, 47);
+}
+.searchbox{
+    display: flex;
+    margin-left: 10px;
+}
+.searchbar{
+    height: 20px;
+    width: 400px;
+    margin-bottom: 15px;
+    margin-left: 2px;
+    margin-top: -2px;
+    outline: none;
+}
+.searchbar i{
+    height: 20px;
+}
+.back{
+    margin-left: 500px;
+    margin-top: 5px;
+    width: 200px;
+    height: 20px;
+    background-color: yellow;
+    text-align: center;
+    justify-content: center;
+}
+footer{
+    height: 90px;
+    margin-top: 5px;
+    color: white;
+    background-color: #101a27;
+    text-align: center;
+}
+.icon{
+    padding-top: 20px;
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+.panel4{
+    height: 50px;
+    background-color: #101a27;
+    margin-bottom: 15px;
+}
+.panel4 p{
+    display: inline;
+    padding-left: 20px;
+}
+.review{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+.review1{
+    background-image: url(cover\ photo.webp);
+}
+.r1{
+    display: flex;
+    background-color: wheat;
+    width: 500px;
+}
+.r1 img{
+    height: 200px;
+    padding: 9px;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+.feedback{
+    text-align: center;
+}
+.feed1 input{
+    outline: none;
+    padding: 6px;
+    margin-bottom: 10px;
+}
